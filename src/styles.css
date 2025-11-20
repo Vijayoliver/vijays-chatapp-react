@@ -1,0 +1,26 @@
+:root{font-family: Arial, Helvetica, sans-serif}
+body,html,#root{height:100%;margin:0}
+.app-root{max-width:900px;margin:20px auto;border:1px solid #eee;padding:12px;border-radius:8px}
+header{display:flex;justify-content:space-between;align-items:center}
+.user-bar{display:flex;gap:8px;align-items:center}
+.auth-wrap{display:flex;flex-direction:column;gap:12px}
+.card{padding:12px;border:1px solid #ddd;border-radius:8px}
+.card input{display:block;width:100%;padding:8px;margin:6px 0}
+.chat-shell{display:flex;gap:12px}
+.left{width:260px}
+.right{flex:1}
+.search-form{display:flex;gap:6px}
+.results{margin-top:8px}
+.result{padding:8px;border:1px solid #eee;margin-bottom:6px;cursor:pointer}
+.chat-window{display:flex;flex-direction:column;height:70vh;border:1px solid #eee;padding:8px}
+.messages{flex:1;overflow:auto;padding:8px}
+.message{padding:8px;margin-bottom:8px;border-radius:6px}
+.me{background:#e6ffe6;align-self:flex-end}
+.them{background:#f3f3f3;align-self:flex-start}
+.img{max-width:200px;display:block;margin-top:6px}
+.composer{display:flex;gap:8px;padding-top:8px}
+.composer input[type=file]{width:180px}
+.err{color:red}
+.note{font-size:12px;color:#666}
+.center{padding:40px;text-align:center}
+.empty{padding:40px;text-align:center;color:#777}
