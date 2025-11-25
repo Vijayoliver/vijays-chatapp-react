@@ -1,4 +1,4 @@
-:root{font-family: poppins}
+:root{font-family: times new roman}
 body,html,#root{height:100%;margin:0}
 .app-root{max-width:900px;margin:20px auto;border:1px solid #eee;padding:12px;border-radius:8px}
 header{display:flex;justify-content:space-between;align-items:center}
