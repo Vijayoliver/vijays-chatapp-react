@@ -257,6 +257,7 @@ function ChatWindow({user, peer}){
                 {m.text && <div className="text">{m.text}</div>}
                 {m.imageUrl && <img src={m.imageUrl} alt="img" className="img" />}
                 <div className="meta">{m.fromUid===user.uid? 'You':'Friend'}</div>
+                {m.text && <div className="text">{m.text}</div>}
                 {m.fromUid===user.uid && !m.deleted && <button className="del" onClick={()=>deleteMessage(m.id)}>Delete</button>}
               </>
             )}
