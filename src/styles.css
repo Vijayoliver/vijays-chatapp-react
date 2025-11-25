@@ -12,7 +12,7 @@ header{display:flex;justify-content:space-between;align-items:center}
 .search-form{display:flex;gap:6px}
 .results{margin-top:8px}
 .result{padding:8px;border:1px solid #eee;margin-bottom:6px;cursor:pointer}
-.chat-window{display:flex;flex-direction:column;height:70vh;border:1px solid #eee;padding:8px}
+.chat-window{display:flex;flex-direction:column;height:70vh;border:1px solid #eee;padding:8px;color:green}
 .messages{flex:1;overflow:auto;padding:8px}
 .message{padding:8px;margin-bottom:8px;border-radius:6px}
 .me{background:#e6ffe6;align-self:flex-end}
