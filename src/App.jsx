@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+simport React, { useEffect, useState } from 'react'
 import { initializeApp } from 'firebase/app'
 import {
   getAuth,
@@ -258,7 +258,7 @@ function ChatWindow({user, peer}){
                 {m.imageUrl && <img src={m.imageUrl} alt="img" className="img" />}
                 <div className="meta">{m.fromUid===user.uid? 'You':'Friend'}</div>
                 {m.text && <div className="text">{m.text}</div>}
-                {m.fromUid===user.uid && !m.deleted && <button className="del" onClick={()=>deleteMessage(m.id)}>Delete</button>}
+                {m.fromUid===user.uid && !m.deleted && <button className="del" onClick={()=>deleteMessage(m.id)}>Delete for everyone</button>}
               </>
             )}
           </div>
